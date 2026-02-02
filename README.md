@@ -4,7 +4,7 @@ Um aplicativo de dashboard **full-stack** construído com **Next.js (App Router)
 Permite gerenciar **Customers** e **Invoices** com pesquisa, paginação, visualização de dados agregados e layout responsivo.
 
 📍 Deploy disponível em:
-🔗 [https://dashboard-app-lilac-two.vercel.app/](https://dashboard-app-lilac-two.vercel.app/) ([GitHub][1])
+🔗 [https://dashboard-app-lilac-two.vercel.app/](https://dashboard-app-lilac-two.vercel.app/)
 
 ---
 
@@ -76,6 +76,6 @@ Abra o navegador em:
 
 Nesse ponto, ainda não há dados no banco para que a aplicação consuma
 Você precisará popular o banco após executar a aplicação
-Existem dados de exemplo para popular o banco, estão presentes em /app/lib/placeholder-data.ts caso queira visualiza-los
-Esses dados servem para alimentar o banco, usando a rota localhost:3000/seed
-Essa rota executa algumas funções para popular o banco e deixa-lo pronto para uso, você pode ver essas funções em /app/seed/route.ts
+Existem dados de exemplo para popular o banco, estão presentes em `/app/lib/placeholder-data.ts` caso queira visualiza-los
+Esses dados servem para alimentar o banco, usando a rota `http://localhost:3000/seed`
+Essa rota executa algumas funções para popular o banco e deixa-lo pronto para uso, você pode ver essas funções em `/app/seed/route.ts`.
