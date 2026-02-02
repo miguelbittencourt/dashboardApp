@@ -74,8 +74,10 @@ pnpm dev
 Abra o navegador em:
 ➡️ `http://localhost:3000`
 
-Nesse ponto, ainda não há dados no banco para que a aplicação consuma
-Você precisará popular o banco após executar a aplicação
-Existem dados de exemplo para popular o banco, estão presentes em `/app/lib/placeholder-data.ts` caso queira visualiza-los
-Esses dados servem para alimentar o banco, usando a rota `http://localhost:3000/seed`
+Nesse ponto, ainda não há dados no banco para que a aplicação consuma, você precisará popular o banco após executar a aplicação.
+
+Existem dados de exemplo para popular o banco, estão presentes em `/app/lib/placeholder-data.ts` caso queira visualiza-los.
+
+Esses dados servem para alimentar o banco, usando a rota `http://localhost:3000/seed`.
+
 Essa rota executa algumas funções para popular o banco e deixa-lo pronto para uso, você pode ver essas funções em `/app/seed/route.ts`.
