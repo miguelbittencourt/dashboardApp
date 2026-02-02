@@ -81,3 +81,5 @@ Existem dados de exemplo para popular o banco, estão presentes em `/app/lib/pla
 Esses dados servem para alimentar o banco, usando a rota `http://localhost:3000/seed`.
 
 Essa rota executa algumas funções para popular o banco e deixa-lo pronto para uso, você pode ver essas funções em `/app/seed/route.ts`.
+
+Como é possível ver no `placeholder-data.ts`, o usuário no banco tem um email e uma senha, use-os para fazer login na aplicação.
